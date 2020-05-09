@@ -1,9 +1,17 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: PragmaticaExtraLight, sans-serif;
-  color: white;
-  background-color: #010814;
+  font-family: Gotham-Light, sans-serif;
+  color: black;
+  background-color: #adb5bd;
+}
+
+.shadow {
+  text-shadow: 1px 1px 2px #000000, 0px 1px 1px #000000, 0px 10px 15px #000000;
+}
+
+#introtext {
+  text-align: left;
 }
 
 html {
@@ -18,7 +26,7 @@ html {
 
 h1 {
   margin: 0 0 35px;
-  font-family: PragmaticaExtraLight, sans-serif;
+  font-family: Gotham-Light, sans-serif;
   font-weight: 700%;
   letter-spacing: 1px;
   word-wrap: break-word;
@@ -32,10 +40,10 @@ h1 {
 h2, h3, h4, h5, h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: PragmaticaExtraLight, sans-serif;
+  font-family: Gotham-Light, sans-serif;
   font-weight: 700%;
   letter-spacing: 1px;
-  color: #7B9FD7;
+  color: #dee2e6;
 }
 
 p {
@@ -52,14 +60,14 @@ p {
 }
 
 a {
-  color: #144BA2;
+  color: #ee0979;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 a:hover, a:focus {
   text-decoration: none;
-  color: #4373BE;
+  color: #adb5bd;
 }
 
 .light {
@@ -70,13 +78,13 @@ a:hover, a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: PragmaticaExtraLight, sans-serif;
-  background-color: #010814;
+  font-family: Gotham-Light, sans-serif;
+  background-color: #212529;
 }
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: #144BA2;
+  color: #ee0979;
 }
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
   outline: none;
@@ -96,7 +104,7 @@ a:hover, a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: #7B9FD7;
+  color: #dee2e6;
   outline: none;
   background-color: transparent;
 }
@@ -108,7 +116,7 @@ a:hover, a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: #072B63;
+  background-color: #adb5bd;
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -140,7 +148,7 @@ a:hover, a:focus {
   text-align: right;
   color: white;
   background: url(../img/intro-bg.JPG) no-repeat bottom center scroll;
-  background-color: #010814;
+  background-color: #adb5bd;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -248,7 +256,7 @@ a:hover, a:focus {
 }
 .content-section {
   padding-top: 75px;
-  background-color: #010814;
+  background-color: #adb5bd;
 }
 
 .download-section {
@@ -285,7 +293,7 @@ a:hover, a:focus {
 }
 .btn {
   text-transform: uppercase;
-  font-family: PragmaticaExtraLight, sans-serif;
+  font-family: Gotham-Light, sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -294,15 +302,15 @@ a:hover, a:focus {
 }
 
 .btn-default {
-  border: 1px solid #144BA2;
-  color: #144BA2;
+  border: 1px solid #ee0979;
+  color: #ee0979;
   background-color: transparent;
 }
 .btn-default:hover, .btn-default:focus {
-  border: 1px solid #144BA2;
+  border: 1px solid #ee0979;
   outline: none;
   color: black;
-  background-color: #144BA2;
+  background-color: #ee0979;
 }
 
 ul.banner-social-buttons {
@@ -352,7 +360,7 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: #010814;
+  -webkit-tap-highlight-color: #212529;
 }
 
 .col-lg-4 {
