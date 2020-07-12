@@ -2,8 +2,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: Gotham-Light, sans-serif;
-  color: black;
-  background-color: #adb5bd;
+  color: white;
+  background-color: #243B51;
 }
 
 .shadow {
@@ -11,7 +11,8 @@ body {
 }
 
 #introtext {
-  text-align: left;
+  text-align: right;
+  color: white;
 }
 
 html {
@@ -25,6 +26,7 @@ html {
 }
 
 h1 {
+  color: black;
   margin: 0 0 35px;
   font-family: Gotham-Light, sans-serif;
   font-weight: 700%;
@@ -43,7 +45,7 @@ h2, h3, h4, h5, h6 {
   font-family: Gotham-Light, sans-serif;
   font-weight: 700%;
   letter-spacing: 1px;
-  color: #dee2e6;
+  color: #45698B;
 }
 
 p {
@@ -60,14 +62,14 @@ p {
 }
 
 a {
-  color: #ee0979;
+  color: #DDBA0F;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 a:hover, a:focus {
   text-decoration: none;
-  color: #adb5bd;
+  color: secondary;
 }
 
 .light {
@@ -79,12 +81,12 @@ a:hover, a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: Gotham-Light, sans-serif;
-  background-color: #212529;
+  background-color: #020D18;
 }
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: #ee0979;
+  color: #152A3F;
 }
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
   outline: none;
@@ -104,7 +106,7 @@ a:hover, a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: #dee2e6;
+  color: #45698B;
   outline: none;
   background-color: transparent;
 }
@@ -116,7 +118,7 @@ a:hover, a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: #adb5bd;
+  background-color: #243B51;
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -148,11 +150,12 @@ a:hover, a:focus {
   text-align: right;
   color: white;
   background: url(../img/intro-bg.JPG) no-repeat bottom center scroll;
-  background-color: #adb5bd;
+  background-color: #243B51;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
-  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
   -o-background-size: cover;
 }
 .intro .intro-body {
@@ -256,7 +259,7 @@ a:hover, a:focus {
 }
 .content-section {
   padding-top: 75px;
-  background-color: #adb5bd;
+  background-color: #243B51;
 }
 
 .download-section {
@@ -302,15 +305,15 @@ a:hover, a:focus {
 }
 
 .btn-default {
-  border: 1px solid #ee0979;
-  color: #ee0979;
+  border: 1px solid #152A3F;
+  color: #DDBA0F;
   background-color: transparent;
 }
 .btn-default:hover, .btn-default:focus {
-  border: 1px solid #ee0979;
+  border: 1px solid #152A3F;
   outline: none;
   color: black;
-  background-color: #ee0979;
+  background-color: #DDBA0F;
 }
 
 ul.banner-social-buttons {
@@ -360,7 +363,7 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: #212529;
+  -webkit-tap-highlight-color: #020D18;
 }
 
 .col-lg-4 {
