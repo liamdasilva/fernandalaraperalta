@@ -155,7 +155,7 @@ a:hover, a:focus {
   -moz-background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   -o-background-size: cover;
 }
 .intro .intro-body {
