@@ -156,12 +156,12 @@ a {
     color: white;
     background: url(../img/intro-bg.JPG) no-repeat bottom center scroll;
     background-color: $light;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    -o-background-size: contain;
+    -o-background-size: cover;
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -176,6 +176,10 @@ a {
         height: 100%;
         margin: 0px 0px;
         padding: 100px 0;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        background-size: contain;
+        -o-background-size: contain;
         .intro-body {
             .brand-heading {
                 font-size: 100px;
