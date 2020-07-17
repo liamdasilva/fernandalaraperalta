@@ -147,16 +147,15 @@ a:hover, a:focus {
   min-height: 410px;
   padding: 100px 0;
   margin: 25px 0px;
-  text-align: right;
   color: white;
   background: url(../img/intro-bg.JPG) no-repeat bottom center scroll;
   background-color: #243B51;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  -o-background-size: cover;
+  -o-background-size: contain;
 }
 .intro .intro-body {
   display: table-cell;
@@ -258,7 +257,7 @@ a:hover, a:focus {
   }
 }
 .content-section {
-  padding-top: 75px;
+  padding-top: 5px;
   background-color: #243B51;
 }
 
